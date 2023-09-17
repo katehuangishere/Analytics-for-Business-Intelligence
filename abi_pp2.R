@@ -75,36 +75,3 @@ dft[year==2017, sum(price2), by=fruit]
 #20. Using table dft from question # 6, what is the result of the code below
 dft[, c('price2', 'price3'):=shift(price, n=1:2)]
 dft[year==2017, sum(price3), by= fruit]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
